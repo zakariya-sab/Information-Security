@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Fingerprinting Lab</title>
+</head>
+
+<body>
+    <h1>Browser Fingerprinting Lab</h1>
+    <!-- 
+    <h2>Active Feature Collection</h2>
+    <p id="feature-output">Waiting for JavaScript...</p> -->
+
+    <!-- <h2>Typing Experiment</h2>
+    <p id="target-sentence">
+        Cookies are gone, but Alice's rhythm still leaves traces!
+    </p>
+
+    <input type="text" id="typing-input">
+    <button type="button" id="restart-button">Restart</button>
+
+    <div id="typing-results"></div> -->
+
+
+    <h2>Browser Fingerprint</h2>
+    <p id="fingerprint-output">Calculating...</p>
+    <script src="{{ url_for('static', filename='fingerprint.js') }}"></script>
+    <!-- <script src="{{ url_for('static', filename='fingerprint2.js') }}"></script> -->
+    <script src="{{ url_for('static', filename='fingerprint3.js') }}"></script>
+</body>
+
+</html>
